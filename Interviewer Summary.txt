@@ -1,0 +1,21 @@
+I didn't want to build another cab-booking or generic fleet-management application because those solutions already exist. I focused on one operational problem: preventable vehicle downtime.
+
+Small and medium fleet operators collect information such as odometer readings, service history and driver-reported vehicle issues, but that information is often fragmented and doesn't automatically lead to an action.
+
+My project combines those inputs to identify vehicles requiring attention, explain why they were flagged, create maintenance actions, and track the vehicle until the issue is resolved.
+
+AI is used mainly to convert natural-language driver reports into structured issues and to provide explainable operational insights, rather than pretending to diagnose mechanical faults.
+
+/--------------------------------------------------------Full Summary---------------------------------------------------------------------
+
+CABWISE – AI-Powered Fleet Downtime Prevention System
+
+CABWISE is a fleet-management project that I designed to solve a specific problem faced by small and medium-sized cab operators: **preventable vehicle downtime**. I found that many fleet systems mainly store information such as vehicle details, service history, driver records, and trip data, but the real challenge is turning that information into timely action.
+
+In CABWISE, a driver can report a vehicle problem in simple natural language, such as “the brake pedal feels softer than usual.” The system uses AI to understand and classify the report, while also considering information such as the vehicle’s odometer, maintenance history, service interval, recent usage, and upcoming trip distance. Based on these inputs, CABWISE identifies vehicles that require attention and explains why they have been flagged.
+
+The important part is that CABWISE doesn't stop at giving an alert. A fleet manager can create a maintenance task, assign it for inspection or service, track the resolution, and update the vehicle status once the issue is completed. So the complete workflow becomes **Detect → Understand → Act → Resolve**.
+
+I am not trying to build another Uber or Rapido-style booking application. My focus is on the operational side of a cab business—helping fleet operators identify potential vehicle problems earlier and make better maintenance and vehicle-assignment decisions.
+
+Technically, I am building CABWISE using React for the frontend, Node.js and Express for the backend, MySQL for data management, and AI for natural-language issue classification and fleet insights. The goal is to make it a practical, user-friendly system that can eventually be deployed and used by real fleet operators.
